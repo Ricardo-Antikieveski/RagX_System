@@ -1,0 +1,51 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Private">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;h++;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="Public">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;c++;cppm;ixx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Src">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Internal">
+      <UniqueIdentifier>{3edf4c98-759f-4d4c-aa46-326c431dc7be}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Internal\Private">
+      <UniqueIdentifier>{27d1fd2c-2615-4eba-b8a7-d9c3625f93c9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Internal\Public">
+      <UniqueIdentifier>{2a85465b-2faf-4640-be4c-57c406b61361}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Internal\Src">
+      <UniqueIdentifier>{0aef9e2d-53b5-494a-89f6-3c8b8ecda88b}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Internal\Public\pch.h">
+      <Filter>Internal\Public</Filter>
+    </ClInclude>
+    <ClInclude Include="Public\EngineCore.h">
+      <Filter>Public</Filter>
+    </ClInclude>
+    <ClInclude Include="Public\EngineGlobal.h">
+      <Filter>Public</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="Internal\Src\dllmain.cpp">
+      <Filter>Internal\Src</Filter>
+    </ClCompile>
+    <ClCompile Include="Internal\Src\pch.cpp">
+      <Filter>Internal\Src</Filter>
+    </ClCompile>
+    <ClCompile Include="Src\EngineCore.cpp">
+      <Filter>Src</Filter>
+    </ClCompile>
+  </ItemGroup>
+</Project>
